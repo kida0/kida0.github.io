@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: KIDA # the main title
 
-tagline: Hello World :) # it will display as the sub-title
+tagline: Data Generalist # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Let's Start!
