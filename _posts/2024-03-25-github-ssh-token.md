@@ -3,7 +3,7 @@ created: 2024-03-25
 title: Github SSH Key 등록하기
 layout: post
 tags: [git]
-category: 프로젝트
+category: 공부
 
 ---
 
@@ -104,5 +104,4 @@ git remote add origin git@github.com-key1:kida0/test-repo.git
 ```
 
 * 원격 저장소를 사용할 때 `git@github.com-key1:kida0/test-repo.git`과 같이 중간에 호스트 이름을 넣어주면 된다.
-
 
