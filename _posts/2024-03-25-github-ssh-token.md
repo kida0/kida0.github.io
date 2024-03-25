@@ -99,8 +99,6 @@ ssh -T git@github.com-key2
 
 #### 6. 사용 방법
 
-![image-20240325185803864](/Users/kida/personal/kida0.github.io/_posts/images/image-20240325185803864.png)
-
 ```bash
 git remote add origin git@github.com-key1:kida0/test-repo.git
 ```
