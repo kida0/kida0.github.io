@@ -9,14 +9,11 @@ category: 공부
 
 
 
-
-# Github SSH Key 등록하기
-
 하나의 장비에서 여러 깃계정을 사용하다보니 충돌이 발생했다. Codecommit credential을 잘못 설정하면서 발생한 문제인 것 같은데, 끝내 에러의 원인은 찾지 못하고 SSH를 이용한 방식으로 문제를 해결했다. Git SSH 설정 및 사용 방법을 공유한다.
 
 
 
-#### 1. SSH 키 생성하기
+### 1. SSH 키 생성하기
 
 ```bash
 # ssh 키 생성
@@ -32,7 +29,7 @@ ssh-keygen -t rsa -C "sample2@email.com" -f "key-name2"
 
 
 
-#### 2. ssh-agent에 새로 생성한 SSH Key 추가하기
+### 2. ssh-agent에 새로 생성한 SSH Key 추가하기
 
 ```bash
 eval "$(ssh-agent -s)"
@@ -50,7 +47,7 @@ ssh-add -l
 
 
 
-#### 3. Github에 SSH Key 추가하기
+### 3. Github에 SSH Key 추가하기
 
 ```bash 
 cat key-name1.pub
@@ -62,7 +59,7 @@ cat key-name2.pub
 
 
 
-#### 4. config 파일 생성
+### 4. config 파일 생성
 
 ```bash
 
@@ -88,7 +85,7 @@ Host github.com-key2
 
 
 
-#### 5. 작동 테스트
+### 5. 작동 테스트
 
 ```bash
 ssh -T git@github.com-key1
@@ -97,7 +94,7 @@ ssh -T git@github.com-key2
 
 
 
-#### 6. 사용 방법
+### 6. SSH Key 사용 방법
 
 ```bash
 git remote add origin git@github.com-key1:kida0/test-repo.git
@@ -105,3 +102,12 @@ git remote add origin git@github.com-key1:kida0/test-repo.git
 
 * 원격 저장소를 사용할 때 `git@github.com-key1:kida0/test-repo.git`과 같이 중간에 호스트 이름을 넣어주면 된다.
 
+
+
+
+
+---
+
+### 참고 자료
+
+https://devocean.sk.com/blog/techBoardDetail.do?ID=163311
