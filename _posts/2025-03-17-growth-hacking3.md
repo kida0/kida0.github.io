@@ -4,6 +4,7 @@ title: 그로스 해킹(3) - 리텐션, 수익화, 추천
 layout: post
 tags: [책, 데이터분석]
 category: 책
+math: true
 ---
 
 ## 리텐션(Retention)
