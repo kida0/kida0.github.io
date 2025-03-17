@@ -2,7 +2,7 @@
 created: 2025-03-17
 title: 그로스 해킹(1) - 그로스 해킹과 제품-시장 적합성
 layout: post
-tags: [책, 데이터분석]
+tags: [book, data]
 category: 책
 ---
 
