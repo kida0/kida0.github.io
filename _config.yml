@@ -44,9 +44,6 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-<<<<<<< HEAD
-google_site_verification: # fill in to your verification string
-=======
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
@@ -55,7 +52,6 @@ webmaster_verifications:
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
->>>>>>> v7.2.4
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
