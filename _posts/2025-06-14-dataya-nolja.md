@@ -8,7 +8,7 @@ category: 데이터
 
 지인의 소개로 '데이터야 놀자' 세미나에 다녀왔습니다. 유튜브에서 우연히 접한 뒤로 관심 있게 보던 세미나라, 실제로 참석할 수 있어 무척 기대가 컸습니다:) 이런 좋은 기회를 준 J에게 다시 한 번 감사하며, 제가 인상 깊게 들은 부분을 제 경험과 함께 풀어보려합니다.
 
-![dataya-nolja](https://github.com/kida0/kida0.github.io/blob/main/assets/images/123.png?raw=true)
+![dataya-nolja](https://github.com/kida0/kida0.github.io/blob/main/assets/images/data-ya-nolja.jpeg?raw=true)
 
 
 ## 성과는 우연이 아니다: 데이터를 읽고 설득하는 마케터의 전략
